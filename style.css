@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'principalcutout';
+    src: url('fonts/NewspaperCutoutWhiteOnBlac-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+/*CONFIGURAÇÕES COM VARIÁVEIS*/
+/*PALETA DE CORES UTILIZADA
+Laranja vibrante: #FFA500
+Amarelo brilhante: #FFFF00
+Vermelho escuro: #FF4500
+Cinza escuro: #333333*/
+:root{
+    --laranjav: #FFA500;
+    --laranjav050:#ffa60080;
+    --amarelob: #FFFF00;
+    --amarelob050: #FFFF0080;
+    --vermelhoe: #FF4500;
+    --vermelhoe050: #FF450080;
+    --cinzae: #333333;
+    --cinzae050: #33333380;
+    --pretobase: #000000;
+    --pretobase050: #000000;
+    --brancobase: #ffffff;
+
+    --tituloprincipal: 'principalcutout', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(imagens/headerpraiaotimi02.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 1000px;
+    margin: 1px;
+    padding: 10px;
+}
+h1 {
+    font-family: var(--tituloprincipal);
+    color: var(--vermelhoe);
+    font-size: 5em;
+    text-align: center;
+}
