@@ -38,11 +38,13 @@ header {
     padding: 10px;
 }
 main {
+    max-width: 400px;
     background-image: url(imagens/headerpraiaotimi02.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
+    margin: auto;
 }
 h1 {
     font-family: var(--tituloprincipal);
