@@ -33,12 +33,16 @@ Cinza escuro: #333333*/
     padding: 0px;
 }
 header {
+    height: 200px;
+    margin: 1px;
+    padding: 10px;
+}
+main {
     background-image: url(imagens/headerpraiaotimi02.png);
     background-repeat: no-repeat;
     background-position: center top;
-    height: 1000px;
-    margin: 1px;
-    padding: 10px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 h1 {
     font-family: var(--tituloprincipal);
